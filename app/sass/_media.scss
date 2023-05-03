@@ -1,0 +1,705 @@
+@media (max-width: 1230px) {
+    .blog__item-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tabs__content-item  {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        padding: 0 10px;
+    }
+
+    .card__img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .video__content {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .important__list {
+        gap: 30px 20px;
+    }
+
+    .important__item {
+        max-width: 255px;
+        margin: 0 auto;
+    }
+
+    .important__item-img {
+        width: 255px;
+    }
+
+    .contacts__text {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1125px) {
+    .top {
+        padding-top: 190px;
+    }
+
+    .important__item {
+        max-width: 226px;
+    }
+
+    .important__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .important__item {
+        max-width: 402px;
+    }
+
+    .important__item-img {
+        width: 402px;
+        height: 238px;
+    }
+}
+
+@media (max-width: 992px) {
+    .top {
+        padding-top: 103px;
+    }
+
+    .swiper {
+        // height: 50vh;
+        height: 455px;
+    }
+
+    .title {
+        font-size: 80px;
+        padding-bottom: 34px;
+    }
+
+    .top__link {
+        padding: 20px;
+        max-width: 378px;
+        font-size: 31px;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 35px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 123px;
+        height: 3px;
+        margin: 10px;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 132px;
+        height: 4px;
+    }
+
+    .benefits__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .benefits__item {
+        max-width: 284px;
+    }
+
+    .important__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .important__item {
+        max-width: 402px;
+    }
+
+    .important__item-img {
+        width: 402px;
+        height: 238px;
+    }
+
+    .important__item-text {
+        font-size: 20px;
+    }
+
+    .tabs__btn {
+        padding: 0 40px;
+        gap: 50px;
+    }
+
+    .tabs__content-item {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .card__img {
+        height: 230px;
+    }
+}
+
+@media (max-width : 855px) {
+    .header__inner {
+        align-items: center;
+    }
+
+    .menu__btn {
+        display: flex;
+    }
+
+    .company-sign {
+        display: inline-block;
+    }
+
+    .company-sign__name {
+        display: inline-block;
+    }
+
+    .company-sign__name::before {
+        display: inline-block;
+    }
+
+    .company-sign__name::after {
+        display: inline-block;
+    }
+
+    .menu__btn,
+    .logo {
+        position: relative;
+        z-index: 10;
+    }
+
+    .menu__list {
+        position: absolute;
+        z-index: 6;
+        background-color: #151515;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        // padding-top: 200px;
+        gap: 23px;
+        padding-top: 60px;
+        height: 100vh;
+        transform: translateY((-100%));
+        transition: transform .3s ease;
+        opacity: 0;
+    }
+
+    .menu__list.menu__list--active {
+        transform: translateY(0%);
+        opacity: 100;
+    }
+
+    .title {
+        font-size: 64px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .important__item {
+        max-width: 352px;
+    }
+
+    .important__item-img {
+        width: 352px;
+        height: 201px;
+    }
+
+    .card__img {
+        height: 205px;
+    }
+}
+
+@media (max-width : 768px) {
+    .section-title {
+        margin-bottom: 35px;
+        font-size: 44px;
+    }
+
+    .top__link {
+        max-width: 335px;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 26px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 31px;
+        height: 2px;
+        margin: 10px;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 35px;
+    }
+
+    .company-sign__name::before {
+        width: 55%;
+        right: 125px;
+    }
+
+    .company-sign__name::after {
+        width: 55%;
+    }
+
+    .title {
+        padding-bottom: 36px;
+        font-size: 60px;
+    }
+
+    .footer__menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 50px;
+        gap: 40px;
+    }
+
+    .benefits {
+        margin: 80px 0;
+    }
+
+    .how-work {
+        padding-bottom: 80px;
+    }
+
+    .how-work__title {
+        font-size: 19px;
+    }
+
+    .how-work__list {
+        margin-bottom: 50px;
+    }
+
+    .video {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .video__text {
+        font-size: 19px;
+    }
+
+    .video__content {
+        height: 290px;
+    }
+
+    .important {
+        padding: 80px 0;
+    }
+
+    .important__text {
+        font-size: 19px;
+    }
+
+    .important__list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+    }
+
+    .important__item {
+        max-width: 500px;
+    }
+
+    .important__item-img {
+        width: 500px;
+        height: 290px;
+    }
+
+    .important__item-text {
+        font-size: 15px;
+    }
+
+    .contacts__text {
+        font-size: 19px;
+    }
+
+    .tabs__btn {
+        margin-bottom: 70px;
+    }
+
+    .tabs__btn-item {
+        font-size: 19px;
+    }
+
+    .tabs__content-item {
+        gap: 30px;
+        padding: 0 15px;
+    }
+
+    .card__img {
+        height: 185px;
+    }
+
+    .card__content {
+        height: 200px;
+    }
+}
+
+@media (max-width: 610px) {
+    
+    .form__input {
+        width: 246px;
+    }
+
+    .tabs__btn {
+        padding: 0 5px;
+    }
+
+    .tabs__content-item {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card__img {
+        height: 336px;
+    }
+}
+
+@media (max-width : 576px) {
+    body {
+        font-size: 15px;
+    }
+
+    .top {
+        padding-top: 123px;
+    }
+
+    .company-sign__name {
+        font-size: 20px;
+    }
+
+    .company-sign__name::before {
+        right: 110px;
+        top: 20px;
+    }
+
+    .company-sign__name::after {
+        bottom: 32px;
+        left: 181px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .top__link {
+        max-width: 254px;
+        font-size: 23px;
+        padding: 13px;
+    }
+
+    // .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    //     bottom: 26px;
+    // }
+
+    // .swiper-pagination-bullet {
+    //     width: 31px;
+    //     height: 2px;
+    //     margin: 10px;
+    // }
+
+    // .swiper-pagination-bullet-active {
+    //     width: 35px;
+    // }
+
+    .benefits__item-title {
+        font-size: 19px;
+    }
+
+    .how-work__item {
+        padding: 6px 0 6px 141px;
+        width: 274px;
+        margin: 0 auto;
+    }
+
+    .important__item {
+        max-width: 430px;
+    }
+
+    .important__item-img {
+        width: 430px;
+        height: 261px;
+    }
+
+    .form {
+        flex-direction: column;
+        max-width: 355px;
+    }
+
+    .form__input {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .form__textarea {
+        width: 100%;
+        height: 170px;
+    }
+
+    .blog__items {
+        gap: 20px;
+    }
+
+    .tabs__btn {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card__img {
+        height: 270px;
+    }
+}
+
+@media (max-width : 480px) {
+    .top {
+        padding-top: 117px;
+    }
+
+    .company-sign__name::before {
+        width: 35%;
+        right: 65px;
+    }
+
+    .company-sign__name::after{
+        width: 35%;
+        left: 169px;
+    }
+
+    .menu__list {
+        padding-top: 110px;
+    }
+
+    .title {
+        font-size: 42px;
+        padding-bottom: 13px;
+    }
+
+    .top__link {
+        font-size: 18px;
+        max-width: 220px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .swiper {
+        height: 315px;
+    }
+
+    .benefits__list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 65px;
+    }
+
+    .benefits__item-img {
+        margin-bottom: 20px;
+    }
+
+    .benefits__item-title {
+        margin-bottom: 20px;
+    }
+
+    .how-work__item {
+        width: 155px;
+        padding: 6px 0 6px 116px;
+    }
+
+    .how-work__item::before {
+        font-size: 36px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .video__content {
+        height: 196px;
+    }
+
+    .important__item {
+        max-width: 273px;
+    }
+
+    .important__item-img {
+        width: 273px;
+        height: 180px;
+    }
+
+    .footer__menu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer__menu-title {
+        padding-bottom: 0;
+    }
+
+    .copy__nav-list {
+        gap: 10px;
+    }
+
+    .contacts {
+        padding-top: 80px;
+    }
+
+    .contacts__text {
+        font-size: 19px;
+    }
+
+    .successeful__msg {
+        font-size: 30px;
+    }
+
+    .blog {
+        padding-bottom: 80px;
+    }
+
+    .blog__items {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+        margin-bottom: 50px;
+    }
+
+    .blog__item-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .show-more-link {
+        padding: 17px 11px 0 0;
+        max-width: 196px;
+    }
+
+    .choose {
+        padding: 70px 0 50px;
+    }
+
+    .tabs__btn {
+        margin-bottom: 65px;
+    }
+
+    .tabs__content-item {
+        padding: 0;
+    }
+
+    .card__img {
+        height: 240px;
+    }
+}
+
+@media (max-width : 320px) {
+    .container {
+        padding: 0 13px;
+    }
+
+    .company-sign__name::before {
+        width: 18%;
+        right: 33px;
+    }
+
+    .company-sign__name::after {
+        width: 18%;
+        left: 166px;
+    }
+
+    .section-title {
+        font-size: 33px;
+    }
+
+    .top {
+        padding-top: 105px;
+    }
+
+    .title {
+        font-size: 34px;
+        padding: 20px 5px;
+    }
+
+    .top__link {
+        font-size: 14px;
+        max-width: 161px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 9px;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 10px;
+    }
+
+    .benefits__item-img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .how-work__item {
+        margin: 0;
+        padding: 6px 0 6px 65px;
+    }
+
+    .how-work__item::before {
+        font-size: 29px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .video__content {
+        height: 134px;
+    }
+
+    .important__item {
+        max-width: 180px;
+    }
+
+    .important__item-img {
+        width: 180px;
+        height: 119px;
+    }
+
+    .copy__nav-list {
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog__item-title {
+        font-size: 18px;
+    }
+
+    .show-more-link {
+        padding: 13px 0 0 25px;
+        max-width: 165px;
+        font-size: 13px;
+        text-align: start;
+    }
+
+    .show-more-link-telegram::after {
+        left: 98px;
+    }
+
+    .card__img {
+        height: 197px;
+    }
+
+    @media (max-height: 500px) {
+        .menu__list--active {
+            padding-top: 60px;
+        }
+
+        body {
+            background-color: tomato;
+        }
+    }
+}
+
